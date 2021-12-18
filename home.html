@@ -5,40 +5,44 @@
 
     <style>
       html {
-        background-color: beige;
+        background-color: tomato;
       }
       body {
-        margin: 0;
-        padding: 20px;
-        border: 2px solid white;
-        background-color: black;
-      }
-      h1 {
-        color: blue;
-        font-style: italic;
-        font-size: 20px;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
       }
       div {
-        margin: 10px;
-        height: 150px;
-        width: 150px;
-        background-color: tomato;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 300px;
+        background-color: wheat;
+        border: 5px solid black;
       }
-      span {
-        margin: 10px;
-        background-color: turquoise;
+      .smallbox {
+        width: 70px;
+        height: 70px;
+        background-color: teal;
+        border: 5px solid white;
       }
-      .tomato {
-        background-color: tomato;
+      .largebox {
+        width: 250px;
+        height: 70px;
+        background-color: teal;
+        border: 5px dashed white;
       }
     </style>
   </head>
   <body>
-    <span>hello</span>
-    <span class="tomato">hello</span>
-    <span>hello</span>
-    <span class="tomato">hello</span>
-    <span>hello</span>
-    <span class="tomato">hello</span>
+    <div>
+      <div class="smallbox"></div>
+      <div class="largebox"></div>
+      <div class="smallbox"></div>
+    </div>
   </body>
 </html>
