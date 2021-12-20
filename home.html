@@ -4,45 +4,26 @@
     <title>Home - My first website.</title>
 
     <style>
-      html {
-        background-color: tomato;
-      }
       body {
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
+        height: 1000vh;
+        margin: 20px;
       }
       div {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-        align-items: center;
         width: 300px;
         height: 300px;
+        color: white;
+      }
+      .green {
+        position: fixed;
+        background-color: teal;
+      }
+      .different {
         background-color: wheat;
-        border: 5px solid black;
-      }
-      .smallbox {
-        width: 70px;
-        height: 70px;
-        background-color: teal;
-        border: 5px solid white;
-      }
-      .largebox {
-        width: 250px;
-        height: 70px;
-        background-color: teal;
-        border: 5px dashed white;
       }
     </style>
   </head>
   <body>
-    <div>
-      <div class="smallbox"></div>
-      <div class="largebox"></div>
-      <div class="smallbox"></div>
-    </div>
+    <div class="green"></div>
+    <div class="different"></div>
   </body>
 </html>
