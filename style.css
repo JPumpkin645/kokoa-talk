@@ -3,21 +3,23 @@ body {
   height: 100vh;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
-@keyframes CoinFlip {
-  0% {
-    transform: rotatez(0);
-  }
-  75% {
-    transform: rotatez(180deg);
-  }
-  100% {
-    transform: rotatez(360deg);
+div {
+  background-color: teal;
+  width: 200px;
+  height: 200px;
+}
+@media screen and (max-width: 1100px) and (orientation: landscape) {
+  div {
+    background-color: tomato;
   }
 }
-
-img {
-  border: 5px solid black;
-  border-radius: 50%;
-  animation: CoinFlip 5s ease-in-out infinite;
+span {
+  font-size: 36px;
+}
+@media screen and (orientation: landscape) {
+  span {
+    display: none;
+  }
 }
