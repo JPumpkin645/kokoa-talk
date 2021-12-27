@@ -1,15 +1,14 @@
-a {
-  color: wheat;
-  background-color: tomato;
-  font-style: italic;
-  text-decoration: none;
-  padding: 3px 5px;
-  border-radius: 5px;
-  font-size: 55px;
-  transition: all 5s ease-in-out;
+@keyframes CoinFlip {
+  form {
+    transform: rotatez(0);
+  }
+  to {
+    transform: rotatez(360deg);
+  }
 }
 
-a:hover {
-  color: tomato;
-  background-color: wheat;
+img {
+  border: 5px solid black;
+  border-radius: 50%;
+  animation: CoinFlip 5s ease-in-out infinite;
 }
