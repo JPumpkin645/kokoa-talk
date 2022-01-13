@@ -15,3 +15,13 @@
     font-size: 20px;
     margin-left: 30px;
 }
+
+.screen-header__cog {
+    position: relative;
+}
+
+.screen-header__notification {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+}
