@@ -30,3 +30,13 @@
     text-align: center;
     font-size: 18px;
 }
+.open-chat {
+    border-top: var(--main-border);
+}
+
+.open-chat__header {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    color: #a6a6a6;
+}
