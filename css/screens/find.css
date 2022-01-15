@@ -40,3 +40,47 @@
     justify-content: space-between;
     color: #a6a6a6;
 }
+
+.open-post {
+    display: flex;
+    justify-content: space-between;
+}
+
+.open-post__title {
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.open-post__hashtags {
+    opacity: 0.6;
+    margin-bottom: 7px;
+}
+
+.open-post__members {
+    display: flex;
+    align-items: center;
+}
+
+.open-post__members img {
+    width: 17px;
+    height: 17px;
+    border-radius: 7px;
+    margin-right: 5px;
+}
+
+.open-post__member-count {
+    opacity: 0.5;
+    font-size: 14px;
+}
+
+.open-post__members .divider {
+    width: 1px;
+    height: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 0 5px;
+}
+
+.open-post__member-status {
+    color: #ff86d0;
+}
