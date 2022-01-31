@@ -94,3 +94,7 @@
 .open-post__like span {
     margin-left: 3px;
 }
+
+.open-post__column:last-child {
+    margin-bottom: 70px;
+}
