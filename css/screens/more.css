@@ -13,18 +13,21 @@
 
 .more-suggestions__icons {
     display: flex;
+    justify-content: space-between;
 }
 
 .more-suggestions__icon {
-    margin-right: 30px;
+    width: 100px;
+    height: 85px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    white-space: nowrap;
 }
 
 .more-suggestions__icon-img {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 10px;
     background-color: var(--yellow);
     display: flex;

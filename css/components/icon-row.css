@@ -5,6 +5,8 @@
 }
 
 .icon-row__icon {
+    width: 100px;
+    height: 85px;
     display: flex;
     flex-direction: column;
     align-items: center;
